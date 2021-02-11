@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            table, th, td {
+              border: 2px solid black;
+              border-collapse: collapse;
+            }
+        </style>
         <title>Hello world</title>
     </head>
     <body>
@@ -37,5 +43,54 @@
     
 </ul>
 <a href="aboutme.html"> Click to view</a>
+<hr>
+<h3>tourist places</h3>
+<p>Home to the Ozark Mountains, culturally rich capitals, and deep threads of United States history, the state of Missouri offers a wide range of experiences. While there are plenty of things to see and do in Kansas City and St. Louis, other sights and cities in Missouri offer even more to explore. Branson provides a long list of outdoor attractions as well as a thriving live-music scene, and the Wilson Creek National Battlefield in Springfield preserves a dynamic moment in Civil War history.</p>
+<table>
+    <tr>
+        <th>location</th>
+        <th>hours</th>
+        <th>money</th>
+    </tr>
+    <tr>
+        <td>St. Louis Gateway Arch</td>
+        <td>12 hours</td>
+        <td>100$</td>
+    </tr>
+    <tr>
+        <td>Branson</td>
+        <td>24 hours</td>
+        <td>200$</td>
+    </tr>
+    <tr>
+        <td>Nelson-Atkins Museum of Art</td>
+        <td>36 hours</td>
+        <td>150$</td>
+    </tr>
+</table>
+<hr>
+<h3>Java</h3>
+<blockquote>Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need for recompilation</blockquote>
+<a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java source link</a>
+<pre>
+    import java.util.Scanner;
 
+    public class HelloWorld {
+
+        public static void main(String[] args) {
+
+            // Creates a reader instance which takes
+            // input from standard input - keyboard
+            Scanner reader = new Scanner(System.in);
+            System.out.print("Enter a number: ");
+
+            // nextInt() reads the next integer from the keyboard
+            int number = reader.nextInt();
+
+            // println() prints the following line to the output screen
+            System.out.println("You entered: " + number);
+        }
+    }
+</pre>
+<a href="https://www.programiz.com/java-programming/examples/print-integer">https://www.programiz.com/java-programming/examples/print-integer</a>
 </html>
