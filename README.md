@@ -1,3 +1,3 @@
 # WebApps-S21-Assignment-3
 Assignment 3 - Basic HTML
-[housted at](https://44-563-web-apps-s21.github.io/webapps-s21-assignment-3-Abhilash15/)
+[housted at](https://44-563-web-apps-s21.github.io/webapps-s21-assignment-3-Abhilash15/.)
